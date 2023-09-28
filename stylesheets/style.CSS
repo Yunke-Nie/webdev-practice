@@ -1,0 +1,70 @@
+/* Remove default list styles from ul within nav */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox to align the items horizontally */
+}
+
+/* Styling for li items within nav */
+nav li {
+    margin: 0 10px; /* Space between the list items */
+}
+
+/* Styling for a elements within nav */
+nav a {
+    text-decoration: none; /* Removes the underline */
+    color: black; /* Color of the links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underlines the link when hovered */
+}
+
+
+
+/* CSS for the Box Model Gallery */
+.box-model {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: inline-block;
+    margin-right: 20px;
+}
+.box1 {
+    border: 0px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+.box2 {
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.box3 {
+    border: 10px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* CSS for footer positioning */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+}
+
+/* CSS for font sizes in the list */
+.size1 { font-size: 12px; }
+.size2 { font-size: 16px; }
+.size3 { font-size: 2em; }
+.size4 { font-size: 1.5rem; }
+.size5 { font-size: 150%; }
+.size6 { font-size: 10pt; }
+
+/* Grid Layout styling (if needed) */
+.grid span {
+    display: inline-block;
+    width: 33%;
+}
